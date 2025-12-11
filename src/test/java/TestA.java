@@ -11,7 +11,7 @@ public class TestA {
         assertArrayEquals(expected1, board1);
 
         int[][] board2 = {{1,1},{1,0}};
-        int[][] expected2 = {{1,1},{1,0}};
+        int[][] expected2 = {{1,1},{1,1}};
         solution.gameOfLife(board2);
         assertArrayEquals(expected2, board2);
     }
